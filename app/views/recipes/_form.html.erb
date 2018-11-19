@@ -4,5 +4,6 @@
 
   <%= f.fields_for :ingredients do |ing|
 
-    <%= ing.label :name
+    <%= ing.label :name %>
+    <%= ing.text_field :name %><BR />
 <% end %>
