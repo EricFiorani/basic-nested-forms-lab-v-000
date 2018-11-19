@@ -25,4 +25,5 @@ class RecipesController < ApplicationController
       :id
     ]
     )
+  end
 end
